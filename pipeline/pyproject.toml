@@ -7,7 +7,10 @@ authors = [
     { name = "Sadeq", email = "74061994+Sadeq-crypto@users.noreply.github.com" }
 ]
 requires-python = ">=3.13"
-dependencies = []
+dependencies = [
+    "pandas>=3.0.5",
+    "pyarrow>=25.0.1",
+]
 
 [project.scripts]
 pipeline = "pipeline:main"
